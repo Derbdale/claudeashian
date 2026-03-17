@@ -31,6 +31,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `kuwtc-newsletter.md` — formats CURRENT.md into HTML email, sends via Resend API, archives to `newsletters/`
   - `manage-mailing-list.md` — add/remove/list email addresses in `.env`
 - `templates/newsletter.html` — HTML email template with inline CSS (`{{CONTENT}}`, `{{SUBJECT}}`, `{{DATE}}` placeholders)
+- `templates/newsletter.html` — HTML email template with inline CSS (`{{CONTENT}}`, `{{SUBJECT}}`, `{{DATE}}` placeholders)
 
 ### Environment variables
 
