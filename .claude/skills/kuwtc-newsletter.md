@@ -1,3 +1,8 @@
+---
+name: kuwtc-newsletter
+description: Format CURRENT.md into a designed HTML email, send via Resend API, archive, and commit.
+---
+
 # KUWTC: Send Newsletter
 
 Format CURRENT.md into a designed HTML email, send via Resend API, archive, and commit.

@@ -1,3 +1,8 @@
+---
+name: kuwtc-research
+description: Discover recent Claude/Claude Code news, features, tips, and tricks. Updates the knowledge base and CURRENT.md, then commits and pushes.
+---
+
 # KUWTC: Research Claude News
 
 Discover recent Claude/Claude Code news, features, tips, tricks, shortcuts, and integrations. Update the knowledge base and CURRENT.md, then commit and push.

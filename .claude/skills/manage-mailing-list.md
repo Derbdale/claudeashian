@@ -1,3 +1,8 @@
+---
+name: manage-mailing-list
+description: Add, remove, or list email addresses in the Claudeashian newsletter mailing list.
+---
+
 # Manage Mailing List
 
 Manage the Claudeashian newsletter mailing list stored in `.env`.
