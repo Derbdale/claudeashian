@@ -1,0 +1,6 @@
+# Environment files (contain secrets and PII)
+.env*
+!.env.example
+
+# Internal docs (brainstorms, plans)
+docs/
