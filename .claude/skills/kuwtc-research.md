@@ -1,4 +1,4 @@
-# Research Claude News
+# KUWTC: Research Claude News
 
 Discover recent Claude/Claude Code news, features, tips, tricks, shortcuts, and integrations. Update the knowledge base and CURRENT.md, then commit and push.
 

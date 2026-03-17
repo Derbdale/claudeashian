@@ -27,7 +27,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `integrations.md` — MCP servers, IDE integrations, API updates, SDK changes
 - `newsletters/` — archived newsletters (CURRENT.md is renamed here after sending)
 - Skills live in `.claude/skills/`:
-  - `research.md` — discovers new Claude content, updates KB, derives CURRENT.md from git diff, commits and pushes
+  - `kuwtc-research.md` — discovers new Claude content, updates KB, derives CURRENT.md from git diff, commits and pushes
   - `manage-mailing-list.md` — add/remove/list email addresses in `.env`
 
 ### Environment variables
