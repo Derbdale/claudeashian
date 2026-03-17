@@ -19,8 +19,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Key files
 
 - `CURRENT.md` — staging area for newly discovered items not yet sent in a newsletter
-- `knowledge/` — permanent archive of all past discoveries (the knowledge base)
-- Skills live in `.claude/skills/` as SKILL.md files
+- `knowledge/` — permanent archive of all past discoveries, organised by category:
+  - `features.md` — Claude/Claude Code features, capabilities, model updates
+  - `tips.md` — tips, tricks, context management, prompt techniques
+  - `shortcuts.md` — keyboard shortcuts, CLI commands, slash commands
+  - `news.md` — announcements, blog posts, industry news
+  - `integrations.md` — MCP servers, IDE integrations, API updates, SDK changes
+- `newsletters/` — archived newsletters (CURRENT.md is renamed here after sending)
+- Skills live in `.claude/skills/`:
+  - `research.md` — discovers new Claude content, updates KB, derives CURRENT.md from git diff, commits and pushes
+  - `manage-mailing-list.md` — add/remove/list email addresses in `.env`
 
 ### Environment variables
 
