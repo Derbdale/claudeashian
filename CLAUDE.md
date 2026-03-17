@@ -28,12 +28,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `newsletters/` — archived newsletters (CURRENT.md is renamed here after sending)
 - Skills live in `.claude/skills/`:
   - `kuwtc-research.md` — discovers new Claude content, updates KB, derives CURRENT.md from git diff, commits and pushes
+  - `kuwtc-newsletter.md` — formats CURRENT.md into HTML email, sends via Resend API, archives to `newsletters/`
   - `manage-mailing-list.md` — add/remove/list email addresses in `.env`
+- `templates/newsletter.html` — HTML email template with inline CSS (`{{CONTENT}}`, `{{SUBJECT}}`, `{{DATE}}` placeholders)
 
 ### Environment variables
 
 Configuration lives in a `.env` file at the project root (gitignored). See `.env.example` for expected variables.
 
 - `CLAUDEASHIAN_EMAIL_LIST` — comma-separated email addresses for newsletter delivery
+- `RESEND_KEY` — Resend API key for sending newsletters
+- `CLAUDEASHIAN_FROM_EMAIL` — sender address (defaults to `onboarding@resend.dev`; needs a verified domain for multi-recipient delivery)
 
 To load env vars in a skill or script, read `.env` directly or use `set -a; source .env; set +a` in shell contexts.
