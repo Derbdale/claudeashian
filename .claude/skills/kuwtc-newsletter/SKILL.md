@@ -133,7 +133,7 @@ New items discovered since the last newsletter.
 ```bash
 git add newsletters/ CURRENT.md
 git commit -m "newsletter: send and archive $(date +%Y-%m-%d)"
-git push origin main
+git push -u origin HEAD
 ```
 
 If push fails, leave the commit for manual resolution. Do not retry.
