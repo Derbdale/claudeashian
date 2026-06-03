@@ -123,7 +123,7 @@ git add CURRENT.md
 git commit -m "research: add new items to knowledge base"
 
 # Push to origin
-git push origin main
+git push -u origin HEAD
 ```
 
 If the push fails, leave the commit as-is for manual resolution. Do not retry.
