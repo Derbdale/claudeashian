@@ -12,3 +12,6 @@ Keyboard shortcuts, CLI commands, and slash commands for Claude Code.
 - **/simplify and /batch bundled commands** — New bundled slash commands for code simplification and batch operations (v2.1.63). (Source: https://code.claude.com/docs/en/changelog)
 - **`w` key in /copy writes to file** — Press `w` in the /copy picker to write the selection directly to a file instead of clipboard (v2.1.72). (Source: https://code.claude.com/docs/en/changelog)
 - **/reload-plugins command** — Reload all plugins without restarting the session (v2.1.69). (Source: https://code.claude.com/docs/en/changelog)
+- **/usage breakdown** — `/usage` now shows a per-category token cost breakdown: skills, subagents, plugins, and per-MCP-server usage. (Source: https://code.claude.com/docs/en/changelog)
+- **/scroll-speed command** — Adjust terminal scroll speed with a live preview so you can tune it in real time. (Source: https://code.claude.com/docs/en/changelog)
+- **claude ultrareview** — Non-interactive code review command for use in CI or scripts: `claude ultrareview [target]`. Add `--json` for structured output. (Source: https://code.claude.com/docs/en/changelog)
