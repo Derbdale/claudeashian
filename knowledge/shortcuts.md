@@ -22,3 +22,4 @@ Keyboard shortcuts, CLI commands, and slash commands for Claude Code.
 - **`--plugin-dir` / `--plugin-url` flags** — Load plugins from `.zip` archives on disk (`--plugin-dir`) or fetch a plugin archive from a URL (`--plugin-url`) for the current session (v2.1.128). (Source: https://code.claude.com/docs/en/whats-new)
 - **/reload-skills command** — Rescans skill directories mid-session to pick up new or edited skill files without restarting (v2.1.152). (Source: https://releasebot.io/updates/anthropic/claude-code)
 - **`! <command>` in agents view** — Run background shell commands from the agents view without switching to a terminal (v2.1.154). (Source: https://releasebot.io/updates/anthropic/claude-code)
+- **/plugin list command** — New slash command to list all installed plugins with filtering options (v2.1.163). (Source: https://releasebot.io/updates/anthropic/claude-code)
