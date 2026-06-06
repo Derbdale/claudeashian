@@ -1,3 +1,10 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
+
+- **`fallbackModel` setting** — Configure up to three backup models tried in order when the primary model is overloaded or unavailable; `--fallback-model` flag also applies to interactive sessions (v2.1.166). (Source: https://github.com/anthropics/claude-code/releases)
+- **Thinking fully disabled on default-thinking models** — `MAX_THINKING_TOKENS=0`, `--thinking disabled`, and the per-model thinking toggle now disable thinking computation (not just display) on models that think by default, reducing latency and cost when extended reasoning is unneeded (v2.1.166). (Source: https://github.com/anthropics/claude-code/releases)
+- **Glob patterns in permission deny rules** — Deny rules now support glob patterns in the tool-name position; using `"*"` as the tool name denies all tools, enabling broad deny-then-allow permission strategies (v2.1.166). (Source: https://github.com/anthropics/claude-code/releases)
+- **Anthropic files confidential S-1 with SEC** — Anthropic, PBC submitted a confidential draft registration statement on Form S-1 for a potential IPO on June 1, 2026. Share count and pricing not yet determined; the filing gives Anthropic the option to go public after SEC review. (Source: https://www.anthropic.com/news/confidential-draft-s1-sec)
+- **Claude Opus 4.1 deprecated** — `claude-opus-4-1-20250805` announced for deprecation on June 5, 2026, with retirement on the Claude API scheduled for August 5, 2026. Migration recommended to Claude Opus 4.8. (Source: https://platform.claude.com/docs/en/release-notes/overview)
+- **Anthropic warns of recursive self-improvement** — Blog post by Marina Favaro and Jack Clark published June 5, 2026 warning that AI may soon improve itself without human involvement. Key stats: over 80% of code merged into Anthropic's codebase is now Claude-written; engineers ship ~8× more code per quarter than pre-2025. The post calls for a coordinated industry-wide pause if multiple frontier labs agree. (Source: https://fortune.com/2026/06/05/anthropic-ai-pause-development-recursive-self-improvement/)
