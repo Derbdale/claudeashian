@@ -28,3 +28,4 @@ Keyboard shortcuts, CLI commands, and slash commands for Claude Code.
 - **`/powerup` command** — Interactive lessons built into Claude Code for learning features hands-on, launched as part of the computer use research preview week (Week 14, v2.1.86). (Source: https://code.claude.com/docs/en/whats-new)
 - **`/team-onboarding` command** — Packages your current Claude Code setup (CLAUDE.md, skills, hooks, MCP config) into a replayable onboarding guide for new teammates (Week 15). (Source: https://code.claude.com/docs/en/whats-new)
 - **`/autofix-pr` command** — Turns on PR auto-fix from the terminal; Claude monitors CI failures on open PRs and pushes fixes automatically (Week 15). (Source: https://code.claude.com/docs/en/whats-new)
+- **`/cd` command** — Move a session to a new working directory mid-session without resetting the prompt cache (v2.1.169). (Source: https://code.claude.com/docs/en/changelog)
