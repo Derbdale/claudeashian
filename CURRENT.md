@@ -1,12 +1,3 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
-
-- **`wheelScrollAccelerationEnabled` setting** — New setting to disable mouse-wheel scroll acceleration in fullscreen mode; useful if you find the acceleration jarring in the TUI renderer (v2.1.174). (Source: https://github.com/anthropics/claude-code/releases)
-- **Session titles in conversation language** — Session titles are now generated in the language of your conversation. Set the `language` setting to pin a specific language (v2.1.176). (Source: https://github.com/anthropics/claude-code/releases)
-- **`footerLinksRegexes` setting** — Add regex-matched link badges to the footer row; configurable in user or managed settings for quick navigation to related docs or dashboards (v2.1.176). (Source: https://github.com/anthropics/claude-code/releases)
-- **`session_thread_id` in managed agent webhook events** — The `session.thread_*` webhook events now include a `session_thread_id` field identifying the multi-agent thread that triggered the event, enabling per-thread event routing in orchestration systems (June 9, 2026). (Source: https://platform.claude.com/docs/en/release-notes/overview)
-- **`GET /v1/environments/{id}/work` on Claude Platform on AWS** — Endpoint that lists pending work for a self-hosted sandbox is now available on Claude Platform on AWS; requires the `GetEnvironment` IAM action (June 10, 2026). (Source: https://platform.claude.com/docs/en/release-notes/overview)
-- **Bedrock credential caching until Expiration** — Credentials from `awsCredentialExport` are now cached until their actual `Expiration` timestamp instead of a fixed 1-hour TTL, preventing premature credential refreshes on long-running Bedrock sessions (v2.1.176). (Source: https://github.com/anthropics/claude-code/releases)
-- **Fable 5 counts ~2x toward subscription plan usage limits** — During the free access window (June 9–22), Fable 5 burns through subscription plan allowances at ~2x the rate of Opus 4.8 because its API pricing is 2x. After June 23, subscription access ends and usage credits are required at $10/$50 per MTok until Anthropic restores it as a plan feature. (Source: https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits)
-- **VSCode `/usage` shows cache miss and context attribution** — The Account & usage dialog in VS Code now breaks down usage by cache misses, long context, subagents, and per-skill/agent/plugin/MCP server, with 24h or 7d time windows (v2.1.174). (Source: https://github.com/anthropics/claude-code/releases)
