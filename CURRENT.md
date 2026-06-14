@@ -1,3 +1,6 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
+
+- **Strava MCP connector for Claude** — Strava launched a read-only remote MCP connector (June 1, 2026) giving Claude OAuth-based access to per-second heart rate and pace telemetry, GPS route data, cycling power metrics, and club/event metadata for its 195M users across 185+ countries. Enabled through Claude.ai, Claude Cowork, or Claude Code; access revocable at any time. (Source: https://letsdatascience.com/news/strava-launches-mcp-connector-for-claude-integration-909e07a0)
+- **Fable 5 and Mythos 5 access suspended globally by US government directive** — On June 12, 2026 at 5:21pm ET, Anthropic received a government directive requiring it to disable Fable 5 and Mythos 5 for all users worldwide — including Anthropic employees — citing national security and a narrow jailbreak where asking the model to "read a codebase and fix software flaws" could be exploited. All other Claude models are unaffected. Anthropic publicly disputes the ruling, arguing the jailbreak is non-universal and that the same capability exists across competing models used daily by cybersecurity professionals. No timeline provided for restoration. (Source: https://www.anthropic.com/news/fable-mythos-access)
