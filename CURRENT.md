@@ -1,8 +1,3 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
-
-- **Auto mode warns before `rm -rf` on unresolved variables** — Since Week 28 (v2.1.205, July 8, 2026), auto mode asks for confirmation before executing `rm -rf` when the target variable cannot be resolved from session context, preventing accidental mass deletions when shell variable names are undefined. Complements the existing auto mode blocks on destructive git and infrastructure commands. (Source: https://code.claude.com/docs/en/whats-new)
-- **Context7 MCP server** — A documentation reference MCP server that retrieves up-to-date library and API docs on demand, eliminating hallucinated APIs and outdated code suggestions. Widely ranked as the single highest-impact MCP server for coding agents in 2026; resolves library-version confusion by pulling live documentation rather than relying on training data. (Source: https://www.totalum.app/blog/best-mcp-servers-2026)
-- **Exa MCP server** — AI-native web search MCP server optimised for coding agents, ranked the most-used search MCP among Claude Code users in 2026. Retrieves current documentation, GitHub issues, and technical articles with higher relevance than general-purpose web search tools. (Source: https://nimbalyst.com/blog/best-claude-code-mcp-servers/)
-- **MCP official registry exceeds 9,400 servers** — The official Model Context Protocol server registry surpassed 9,400 entries by mid-2026, up from 800 in March 2026, reflecting rapid ecosystem growth following Anthropic's donation of MCP to the Linux Foundation's Agentic AI Foundation in December 2025. (Source: https://claudefa.st/blog/tools/mcp-extensions/best-addons)
