@@ -2,6 +2,7 @@
 
 Announcements, blog posts, and industry news about Claude and Anthropic.
 
+- **Claude's new constitution published** — Anthropic published an 84-page model spec on January 22, 2026, shifting from rule-based to reason-based AI alignment. Written primarily for Claude and used directly in training, it explains the *why* behind ethical principles rather than prescribing behaviours. Establishes a four-tier priority hierarchy (safety, ethics, compliance, helpfulness), formally acknowledges the possibility of AI consciousness and moral status, and is released under a Creative Commons CC0 license. (Source: https://anthropic.com/news/claude-new-constitution)
 - **Claude Cowork research preview** — Launched end of January 2026 as a productivity tool for knowledge workers. (Source: https://fazal-sec.medium.com/anthropics-explosive-start-to-2026-everything-claude-has-launched-and-why-it-s-shaking-up-the-668788c2c9de)
 - **Claude Partner Network launched** — Program for partner organisations helping enterprises adopt Claude, with initial $100M commitment for training and support. (Source: https://releasebot.io/updates/anthropic)
 - **Inline visualisations in Claude** — Claude can now create custom charts, diagrams and other visualisations inline in responses. (Source: https://releasebot.io/updates/anthropic/claude)
