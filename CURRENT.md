@@ -1,3 +1,6 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
+
+- **Claude for Open Source expanded** — Anthropic expanded Claude for Open Source on July 8, 2026, giving 6 months of free Claude Max 20x (worth $1,200) to open-source maintainers and core contributors. Eligibility: primary maintainer or core team of a public repo with 5,000+ GitHub stars or 1M+ monthly npm downloads, with commits/releases/PR reviews in the last 3 months. An "Ecosystem Impact Track" lets maintainers of critical-but-less-visible packages apply with a written explanation. Capped at 10,000 individual slots, no API credits, no team sharing, no auto-renewal. (Source: https://alphasignal.ai/news/anthropic-gives-10-000-open-source-maintainers-1-200-of-free-claude-max)
+- **Claude Code weekly usage limits extended 50% through August 19** — On July 18, 2026, Anthropic extended its temporary 50% weekly usage limit boost for Claude Code, now running through August 19, 2026, for all Pro, Max, Team, and seat-based Enterprise users. The promotion had previously been extended through July 19, then through August 5 for Cowork, and is now extended as a standalone Claude Code promotion. (Source: https://x.com/ClaudeDevs/status/2078511173759324328)
