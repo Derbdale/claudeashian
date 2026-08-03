@@ -1,6 +1,3 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
-
-- **Task budgets API (beta)** — Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) using `task_budget` inside `output_config`. The model sees a running countdown and self-moderates, finishing gracefully rather than cutting off mid-action. Set the `task-budgets-2026-03-13` beta header to opt in. Minimum 20,000 tokens; supported on Claude Opus 4.7, 4.8, 5, Fable 5, and Mythos 5. Launched April 16, 2026 on Opus 4.7; expanded to Opus 4.8 (May 28), Fable 5/Mythos 5 (June 9), and Opus 5 (July 24). (Source: https://platform.claude.com/docs/en/build-with-claude/task-budgets)
-- **Claude Opus 5 in GitHub Copilot** — Claude Opus 5 is available in GitHub Copilot for Pro+, Max, Business, and Enterprise plans, across VS Code, Visual Studio, JetBrains, Xcode, and github.com. The model targets complex, long-running coding tasks requiring careful reasoning and multi-tool coordination. Enhanced cybersecurity safeguards may block some security-adjacent requests. Business and Enterprise admins must explicitly enable the Claude Opus 5 policy in Copilot settings. Available July 24, 2026. (Source: https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot/)
