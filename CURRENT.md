@@ -1,3 +1,6 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
+
+- **SynthID-Text watermark technical details clarified** — Anthropic's August 15, 2026 technical explainer confirms: (1) light editing doesn't remove watermarks, but a complete word-for-word rewrite will (though fully rewritten text may no longer qualify as AI-generated); (2) code generation receives minimal watermarking since models have little flexibility in generating functionally correct code — only arbitrary choices like comment wording are watermarked; (3) heavily human-edited text has little for the watermark to attach to, making detection unreliable on such content. A detection API is forthcoming. (Source: https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/)
+- **Claude major service outage (August 16, 2026)** — A roughly 42-minute outage beginning at 21:58 UTC affected Claude.ai, Claude Code, and Claude Cowork with authentication failures and degraded performance. Claude Console and the Claude API remained fully operational throughout. All services were restored by 22:40 UTC. Anthropic did not publicly disclose the root cause. (Source: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/)
