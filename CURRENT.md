@@ -1,7 +1,3 @@
 # Current Discoveries
 
 New items discovered since the last newsletter.
-- **Claude Code Desktop pane pop-out** — In the Claude Code Desktop app, any pane (diff panel, terminal, etc.) can be dragged out into its own window for multi-screen workflows and docked back when done. Landed in Week 37 (September 7–11, 2026). (Source: https://code.claude.com/docs/en/whats-new/2026-w37)
-- **Auto mode classifier names the blocking rule** — When auto mode blocks an action, the reason message delivered to Claude now usually names the specific rule that matched (e.g., `[Data Exfiltration]`), making it easier to diagnose over-aggressive deny rules and write targeted allow exceptions. Landed in Week 37 (v2.1.263–v2.1.269). (Source: https://code.claude.com/docs/en/whats-new/2026-w37)
-- **Take back queued web session message** — In Claude Code on the web, you can recall a queued message before Claude reads it: remove it from the queue directly, or press `Esc`/`Up` to return the text to the message box. Landed in Week 37 (v2.1.263–v2.1.269). (Source: https://code.claude.com/docs/en/whats-new/2026-w37)
-- **Mid-prompt slash command picker** — Typing `/` partway through a prompt now opens a filtered list of matching commands rather than offering only a single suggestion; the list narrows as you type. In fullscreen rendering the list appears inline. Plugin skills also match on their name without the plugin prefix. Landed in Week 37 (v2.1.263–v2.1.269). (Source: https://code.claude.com/docs/en/whats-new/2026-w37)
